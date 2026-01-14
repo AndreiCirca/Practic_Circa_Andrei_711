@@ -2,12 +2,12 @@ package Model;
 
 public class Vehicle {
     private int id;
-    private string licensePlate;
+    private String licensePlate;
     private VehicleType type;
     private String ownerCity;
     private VehicleStatus status;
 
-    public Vehicle(int id, string licensePlate, VehicleType type, String ownerCity, VehicleStatus status) {
+    public Vehicle(int id, String licensePlate, VehicleType type, String ownerCity, VehicleStatus status) {
         this.id = id;
         this.licensePlate = licensePlate;
         this.type = type;
@@ -23,11 +23,11 @@ public class Vehicle {
         this.id = id;
     }
 
-    public string getLicensePlate() {
+    public String getLicensePlate() {
         return licensePlate;
     }
 
-    public void setLicensePlate(string licensePlate) {
+    public void setLicensePlate(String licensePlate) {
         this.licensePlate = licensePlate;
     }
 

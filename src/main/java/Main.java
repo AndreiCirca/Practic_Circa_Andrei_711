@@ -34,6 +34,6 @@ public class Main {
 
 
 
-        new ConsoleController(VehicleService, TrafficEvent, fineService).run();
+
     }
 }
